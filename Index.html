@@ -1,0 +1,308 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<!--[if lt IE 7]>      <html class="ltIE7 ltIE8 ltIE9"> <![endif]-->
+<!--[if IE 7]>         <html class="isIE7 ltIE8 ltIE9" > <![endif]-->
+<!--[if IE 8]>         <html class="isIE8 ltIE9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<meta charset="utf-8">
+	<title>Huzair Kalia</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/mediahome.css">
+	<link rel="stylesheet" href="css/animation.css">
+	<link rel="shortcut icon" href="images/favicon.ico"/>
+	
+	
+	<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+	
+	
+	<script src="js/prototype.js" type="text/javascript"></script>
+	<script src="js/scriptaculous.js?load=effects" type="text/javascript"></script>
+	<script src="js/lightbox.js" type="text/javascript"></script>
+	
+ <script type='text/javascript'>
+ var fixed = false;
+
+$(document).scroll(function() {
+    if( $(this).scrollTop() >= 100 ) {
+        if( !fixed ) {
+            fixed = true;
+            $('#myDiv').css({position:'fixed',top:20});
+        }
+    } else {
+        if( fixed ) {
+            fixed = false;
+            $('#myDiv').css({position:'static'});
+        }
+    }
+});
+ </script>
+
+	
+</head>
+<body>
+
+<header>
+<ul class="header-social">
+		 <li><a href="#" class="hd-twitter"><img src="images/twitter3.png" onmouseover="this.src='images/twitter4.png'" onmouseout="this.src='images/twitter3.png'" /></a></li>
+         <li><a href="#" class="hd-facebook"><img src="images/facebook3.png" onmouseover="this.src='images/facebook4.png'" onmouseout="this.src='images/facebook3.png'" /><a></li>
+         <li><a href="#" class="hd-behance"><img src="images/behance3.png" onmouseover="this.src='images/behance4.png'" onmouseout="this.src='images/behance3.png'" /></a></li>
+		 <li><a href="#" class="hd-99designs"><img src="images/99designs1.png" onmouseover="this.src='images/99designs2.png'" onmouseout="this.src='images/99designs1.png'" /></a></li>
+      </ul>
+</header>
+<div class="logo">
+<center><img id="logoheader"src="images/logo.png" alt="Logo" ><center>
+</div>
+<section id="trend">
+<ul class="Nav">
+<center><div id ="bordernav">
+         <li><a href="#" class="selected">Home<a></li>
+         <li><a data-scroll data-options='{ "easing": "easeOutCubic" }' href="#skill"  id="about">About me</a></li>
+         <li><a data-scroll data-options='{ "easing": "easeOutCubic" }' href="#portfolio2"  id="portfolio">Portfolio</a></li>
+		 <!--<li><a href="#" class="unselected">Buy</a></li>
+		 <li><a href="#" class="unselected">Freebies</a></li>-->
+		 <li><a data-scroll data-options='{ "easing": "easeOutCubic" }' href="#colorem" class="contact">Contact me</a></li>
+		 </div></center>
+      </ul>
+	  <!--<hr id="line1" color="#eba087";>-->
+	  <!--<center><img class="arrow"src="images/arrow.png" alt="arrow" ; ></center>-->
+	  <center><img class="banner "src="images/bannerrep.png" alt="Banner" ; ></center>
+	  <h1 class="bannertext"><b>KEEPING UP WITH THE TRENDS.</b></h1>
+	  <br>
+	  <br>
+	  
+</section>
+<!--<img id="smedia" src="images/smedia.png">;-->
+<section id="sell">
+<h1 class="head2">Get quality web designs</h1>
+<center><a data-scroll data-options='{ "easing": "easeOutCubic" }' href="#colorem"><img class="hireme"src="images/hireme.png" alt="Hire Me" ; ></a></center>
+<center><img class="banner2"src="images/banner2.png" alt="Work" ; ></center>
+</section>
+
+
+<section id="skill">
+<h1 class="head3">Skills</h1>
+
+
+<div id = "skillitems">
+
+   <center><div id = "skillitem1" ><a href="#" ><img id="skillitem" src="images/photoshop.png" alt="SK" ></a><a href="#" class="photoshop">Photoshop</a></div>
+    <div id = "skillitem2" ><a href="#" ><img id="skillitem" src="images/indesign.png" alt="SK" ><a href="#" class="indesign">InDesign</a></a></div>
+    <div id = "skillitem3" ><a href="#" ><img id="skillitem" src="images/flash.png" alt="SK" ></a><a href="#" class="flash"><center>Flash</center></a></div>
+	<div id = "skillitem4" ><a href="#" ><img id="skillitem" src="images/html.png" alt="SK" ></a><a href="#" class="html"><center>HTML5</center></a></div>
+	<div id = "skillitem5" ><a href="#" ><img id="skillitem" src="images/css.png" alt="SK" ></a><a href="#" class="css"><center>CSS3</center></a></div>
+    </div>  </center>
+	  <!--<ul class="listtext">
+         <li><a href="#" class="photoshop">Photoshop<a></li>
+         <li><a href="#" class="indesign">InDesign</a></li>
+         <li><a href="#" class="flash">Flash</a></li>
+		 <li><a href="#" class="html">HTML5</a></li>
+		 <li><a href="#" class="css">CSS3</a></li>
+
+      </ul>-->
+<br>
+
+<br>
+</section>
+
+
+<section id="additional"> 
+<h1 class="head7">Why get a website?</h1>
+<center>
+<div id="toholdthee">
+<div id="oneofthree">
+<br><br><img id="onep" src="images/p1.png" alt="SK" >
+<br><br><p id="onehead">Unintereuptted Access</p>
+<br><p id="onetext">The most important reason is that a website of your
+ own will promote your organization 24 hours a day to the whole world available at your customer's convenience.</p>
+</div>
+<div id="twoofthree">
+<br><br><img id="onep" src="images/p2.png" alt="SK" >
+<br><br><p id="onehead">Increase in Sales</p>
+<br><p id="onetext">Web sites can display large amounts of information. A Web site can play the role of a high-quality
+, interactive, full-color brochure listing.</p>
+</div>
+<div id="threeofthree">
+<br><br><img id="onep" src="images/p3.png" alt="SK" >
+<br><br><p id="onehead">Broaden Customer base</p>
+<br><p id="onetext">Owning a Web site means you can literally have a worldwide audience. Your Internet presence exposes you to a greater 
+number of potential customers.</p>
+</div>
+</div>
+</center>
+<br>
+<br><br>
+</section>
+<hr id="line2" color="#acaaa1";>
+
+<section id="portfolio2">
+<h1 class="port1">Portfolio</h1>
+<h1 class="port2">Here is some of my work...</h1>
+
+<div id="gallery">
+<div id="column1">
+<a href="images/pic1.png" class="pic" title="  Shirt Design - Designed on 99designs  " rel="lightbox"><img src="images/pic1.png"   alt="Portfolio Picture 2" />
+<div class="cover">
+        <h3 class="headimage1">Shirt<br>Design</h3>
+        <center><p class="lowimage1">Designed on 99designs </p><center>
+		
+      </div>
+	  
+    </a>
+    </a>
+<a href="images/4.jpg" class="pic" title="  SportsReplay - Website about a sports charity company. Designed on 99designs  " rel="lightbox"><img src="images/pic4.png"   alt="Portfolio Picture 2" />
+<div class="cover">
+        <h3 class="headimage1">Flyer<br>Design</h3>
+        <center><p class="lowimage1">Gym company. Designed on 99designs </p><center>
+		
+      </div>
+	  
+    </a>
+	
+<a href="images/7.png" class="pic" title="  SportsReplay - Website about a sports charity company. Designed on 99designs  " rel="lightbox"><img src="images/pic7updated.png"   alt="Portfolio Picture 2" />
+<div class="cover">
+        <h3 class="headimage1">Website</h3>
+        <center><p class="lowimage1">Designed on 99designs </p><center>
+		
+      </div>
+	  
+    </a>
+
+</div>
+<div id="column2">
+<a href="images/2.jpg" class="pic" title="  SportsReplay - Website about a sports charity company. Designed on 99designs  " rel="lightbox"><img src="images/pic2.png"   alt="Portfolio Picture 2" />
+<div class="cover">
+        <h3 class="headimage2">Sports<br>Replay</h3>
+        <center><p class="lowimage2">Sports charity company. Designed on 99designs </p><center>
+		
+      </div>
+	  
+    </a>
+	
+<a href="images/5.jpg" class="pic" title="  SportsReplay - Website about a sports charity company. Designed on 99designs  " rel="lightbox"><img src="images/pic5.png"   alt="Portfolio Picture 2" />
+<div class="cover">
+        <h3 class="headimage4">CD Cover<br>Design</h3>
+        <center><p class="lowimage4">Designed on 99designs </p><center>
+		
+      </div>
+	  
+    </a>
+<a href="images/8.png" class="pic" title="  SportsReplay - Website about a sports charity company. Designed on 99designs  " rel="lightbox"><img src="images/pic8updated.png"   alt="Portfolio Picture 2" />
+<div class="cover">
+        <h3 class="headimage3">Website</h3>
+        <center><p class="lowimage3">Designed on 99designs </p><center>
+		
+      </div>
+	  
+    </a>
+</div>
+<div id="column3">
+
+<a href="images/3.jpg" class="pic" title="Logo for sale with custom alterations. Only 40$"  rel="lightbox"><img src="images/pic3.png"   alt="Portfolio Picture 3" />
+<div class="cover">
+        <h3 class="headimage3">For Sale</h3>
+        <center><p class="lowimage3">Logo for sale with custom<br> alterations. Only 40$ </p></center>
+		
+      </div>
+	  
+    </a>
+<a href="images/6.png" class="pic" title="  SportsReplay - Website about a sports charity company. Designed on 99designs  " rel="lightbox"><img src="images/pic6.png"   alt="Portfolio Picture 2" />
+<div class="cover">
+        <h3 class="headimage3">Fantasy Game<br>Website</h3>
+        <center><p class="lowimage3">Designed on 99designs </p><center>
+		
+      </div>
+	  
+    </a>
+<a href="images/9.jpg" class="pic" title="  SportsReplay - Website about a sports charity company. Designed on 99designs  " rel="lightbox"><img src="images/pic9.png"   alt="Portfolio Picture 2" />
+<div class="cover">
+        <h3 class="headimage4">Rocket<br>Tees</h3>
+        <center><p class="lowimage4">Private Project - Logo </p><center>
+		
+      </div>
+	  
+    </a>
+<a href="images/11.jpg" class="pic" title="  SportsReplay - Website about a sports charity company. Designed on 99designs  " rel="lightbox"><img src="images/pic11.png"   alt="Portfolio Picture 2" />
+<div class="cover">
+        <h3 class="headimage3">Rocket<br>Tees</h3>
+        <center><p class="lowimage3">Private Project - Website </p><center>
+		
+      </div>
+	  
+    </a>
+
+</div>
+</div>
+</section>
+
+<br>
+<br>
+
+
+
+<!--<hr id="line2" color="#acaaa1";>-->
+
+<section id="colorem">
+<h1 class="head4">Interested in working with me?</h1>
+<h1 class="head5">Fill the form below or email me at huzair@gmail.com</h1><center
+<center><form>
+
+  <fieldset class="account-info">
+    <label>
+      <input id ="formname" type="text" name="name" value="Name">
+    </label>
+	
+    <label>
+      <input id ="formemail" type="text" name="email" value="Email">
+    </label>
+	
+	<label>
+	
+      <textarea name="textarea" cols="40" rows="4" >Message</textarea>
+    </label>
+  </fieldset>
+  <!--<fieldset class="account-action">
+    <input class="btn" type="submit" name="submit" value="Login">
+    
+  </fieldset>-->
+</form></center>
+<center><img id="hireme2"src="images/hireme2.png" alt="Hire Me" ; >
+<!--<h1 class="head5">Or Email me at huzair@gmail.com</h1><center>-->
+</section>
+<footer id="footer">
+<center>
+<ul class="footer-social">
+         <li><a href="#" class="hd-twitter"><img src="images/twitter3.png" onmouseover="this.src='images/twitter4.png'" onmouseout="this.src='images/twitter3.png'" /></a></li>
+         <li><a href="#" class="hd-facebook"><img src="images/facebook3.png" onmouseover="this.src='images/facebook4.png'" onmouseout="this.src='images/facebook3.png'" /><a></li>
+         <li><a href="#" class="hd-behance"><img src="images/behance3.png" onmouseover="this.src='images/behance4.png'" onmouseout="this.src='images/behance3.png'" /></a></li>
+		 <li><a href="#" class="hd-99designs"><img src="images/99designs1.png" onmouseover="this.src='images/99designs2.png'" onmouseout="this.src='images/99designs1.png'" /></a></li>
+      </ul>
+	  
+<hr id="line3" color="#acaaa1";>
+<hr id="line4" color="#acaaa1";>
+<a data-scroll data-options='{ "easing": "easeOutCubic" }' href="#"  ><img class="logofoot "src="images/logo.png" alt="Logo" ></a></center>
+
+
+<!--<p id= "footlose" >© Huzair Kalia — Graphic Design and Web Developement 2015</p>-->
+<br>
+</footer>
+<script type='text/javascript' src='js/scroll.js'></script>
+		<script>
+			smoothScroll.init({
+				speed: 1000,
+				easing: 'easeInOutCubic',
+				offset: 0,
+				updateURL: true,
+				callbackBefore: function ( toggle, anchor ) {},
+				callbackAfter: function ( toggle, anchor ) {}
+			});
+		</script>
+</body>
+</html>
